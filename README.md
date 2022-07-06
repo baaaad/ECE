@@ -13,3 +13,21 @@ Each ECE instance contains three main information:
 - `GT-Cap`, the ground-truth caption of the given image and also the editing target.
 
 ### Examples from COCO-EE and Flickr30K-EE 
+![Example2](https://github.com/baaaad/ECE-dataset/blob/main/images/image_2.png)
+
+### Statistical summary of the COCO-EE and Flickr30K-EE
+
+
+|                      |   | **COCO-EE** |  |  | **Flickr30K-EE** |  | 
+|  ------------------- | --------- | --------- | --------- |  --------- | --------- | --------- |
+|                      | **Train** | **Dev** | **Test** |  **Train** | **Dev** | **Test** |
+|  **#Editing instances**|  97,567    | 5,628    | 5,366     |   108,238    | 4,898    | 4,910     | 
+|  **#Images**     | 52,587    | 3,055    | 2,948     |    29,783    | 1,000    | 1,000     |
+|  **Mean Reference Caption Length**        | 10.3    | 10.2    | 10.1     |    7.3    | 7.4    | 7.4     |
+|  **Mean Ground-Truth Caption Length**  | 9.7    | 9.8    | 9.8     |    6.2    | 6.3    | 6.3     |
+|  **Mean Edit Distance**  | 10.9    | 11.0    | 10.9     |   8.8    | 8.8    | 8.9     |
+
+
+## Dataset Construction
+
+
