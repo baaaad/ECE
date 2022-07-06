@@ -30,4 +30,9 @@ Each ECE instance contains three main information:
 
 ## Dataset Construction
 
+The processed datasets can be directly download from [here](https://drive.google.com/drive/folders/1nzIsGT4SC81aMcC48tCMWcqL77sgYrvT?usp=sharing), including the COCO-EE and Flickr30K-EE in `train`, `dev` and `test` splits.
+
+Or, you can follow the instructions below to set up the environment and construct them:
+
+### COCO-EE Construction
 
