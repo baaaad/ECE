@@ -1,0 +1,3 @@
+[submodule "coco-edit"]
+	path = coco-edit
+	url = https://github.com/baaaad/coco-edit.git
