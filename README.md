@@ -35,15 +35,17 @@ The processed datasets can be directly download from [here](https://drive.google
 Or, you can follow the instructions below to set up the environment and construct them:
 
 ### COCO-EE Construction
-1. Setup coco-caption submodule following [this](coco_caption/README.md).
-2. Setup [environment](environment.yml).
-3. Calculate image-caption similarity.
-```
-python img_cap_sim.py
-```
-4. Sample negative captions for editing.
-```
-python build_cocoedit_mp.py --start <from> --end <to> --split <split> 2>/dev/null
-```
+1. Setup coco-edit submodule and follow its instructions form [this](coco-edit/README.md).
 
 ### Flickr30K-EE Construction
+1. Setup environment
+    ```sh
+    conda create -n flkree python=3.7
+    conda activate flkree
+    conda install json
+    conda install csv
+    ```
+2. Construct Flikr30K-EE
+```
+python contruct_flikr30k_ee.py --split <split>
+```
