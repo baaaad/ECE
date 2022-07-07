@@ -35,7 +35,7 @@ The processed datasets have been placed in the [dataset](https://github.com/baaa
 Or, you can follow the instructions below to set up the environment and construct them:
 
 ### COCO-EE Construction
-1. Setup coco-edit submodule and follow its instructions form [this](coco-edit/README.md).
+1. Setup coco-edit submodule and follow its instructions form [this](https://github.com/baaaad/coco-edit/tree/b70e36bf05be5af16923f5ca0b8cce91ec9c29d1).
 
 ### Flickr30K-EE Construction
 1. Setup environment
