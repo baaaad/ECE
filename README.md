@@ -30,7 +30,7 @@ Each ECE instance contains three main information:
 
 ## Dataset Construction
 
-The processed datasets can be directly download from [here](https://drive.google.com/drive/folders/1nzIsGT4SC81aMcC48tCMWcqL77sgYrvT?usp=sharing), including the COCO-EE and Flickr30K-EE in `train`, `dev` and `test` splits.
+The processed datasets have been placed in the [dataset](https://github.com/baaaad/ECE-dataset/tree/main/dataset) folder, they can also be directly download from [here](https://drive.google.com/drive/folders/1nzIsGT4SC81aMcC48tCMWcqL77sgYrvT?usp=sharing), including the COCO-EE and Flickr30K-EE in `train`, `dev` and `test` splits.
 
 Or, you can follow the instructions below to set up the environment and construct them:
 
@@ -45,7 +45,8 @@ Or, you can follow the instructions below to set up the environment and construc
     conda install json
     conda install csv
     ```
-2. Construct Flikr30K-EE
+2. Prepare the esnlive data and the output folder
+3. Construct Flikr30K-EE
 ```
-python contruct_flikr30k_ee.py --split <split>
+python contruct_flickr30k_ee.py --split <split>
 ```
