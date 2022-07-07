@@ -48,5 +48,5 @@ Or, you can follow the instructions below to set up the environment and construc
 2. Prepare the esnlive data and the output folder
 3. Construct Flikr30K-EE
 ```
-python contruct_flickr30k_ee.py --split <split>
+python construct_flickr30k_ee.py --split <split>
 ```
