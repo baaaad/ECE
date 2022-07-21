@@ -1,5 +1,5 @@
 # Explicit Image Caption Editing  
-This repository contains the datasets and reference code for the paper Explicit Image Caption Editing accpeted to ECCV 2022. Refer to our full paper for detailed intructions and analysis.
+This repository contains the datasets and reference code for the paper [Explicit Image Caption Editing](https://arxiv.org/abs/2207.09625) accpeted to ECCV 2022. Refer to our full paper for detailed intructions and analysis.
 ![Example](https://github.com/baaaad/ECE-dataset/blob/main/images/image_1.png)
 
 
