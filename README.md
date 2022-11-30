@@ -54,3 +54,7 @@ Or, you can follow the instructions below to set up the environment and construc
 ```
 python construct_flickr30k_ee.py --split <split>
 ```
+
+
+## The ECE model: TIger
+The code of our proposed ECE model TIger are now available [here](https://github.com/baaaad/TIger).
